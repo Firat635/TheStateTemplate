@@ -1,0 +1,287 @@
+#product {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+#product .box {
+  padding: 20px;
+  border: 1px solid #fd784f;
+}
+#product .box p {
+  margin: 0;
+}
+#product .box button {
+  border: 1px solid red;
+  background-color: red;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+#product .box button:hover {
+  background-color: #fff;
+  color: red;
+  transition: 1s;
+}
+#product .box img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  border-bottom: 1px solid #fff;
+}
+header nav {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  margin-top: 20px;
+}
+header nav .navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header nav .navbar-brand span {
+  color: #fff;
+}
+header nav .navMenu {
+  justify-content: center;
+}
+header nav .navMenu ul {
+  gap: 20px;
+  margin: auto;
+  text-align: center;
+}
+header nav .navMenu ul li a strong {
+  color: #fff;
+  font-size: 15px;
+}
+header nav .navMenu ul li a strong:hover {
+  color: #fd784f;
+  transition: 0.5s;
+}
+header nav p {
+  background-color: #fd784f;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+#photoHome {
+  background-image: url(/assets/Image/home_slider_bcg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#photoHome .container {
+  width: 100%;
+}
+#photoHome .container p {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+}
+
+#homeproducts .container .properties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#homeproducts .container .properties .bla {
+  color: #fd784f;
+  height: 35px;
+  width: 5px;
+  background-color: #fd784f;
+}
+#homeproducts .container .properties .word {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#products {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+#products .box {
+  padding: 20px;
+  border: 1px solid #fd784f;
+}
+#products .box p {
+  margin: 0;
+}
+#products .box button {
+  border: 1px solid #fd784f;
+  background-color: #fd784f;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+#products .box button:hover {
+  background-color: #fff;
+  color: #fd784f;
+  transition: 1s;
+}
+#products .box img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+#loadbtn {
+  background-color: rgb(28, 170, 0);
+  border: 1px solid rgb(28, 170, 0);
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 5px 15px;
+}
+#loadbtn:hover {
+  background-color: #fff;
+  transition: 1.5s;
+  color: rgb(28, 170, 0);
+}
+
+#bgPhoto {
+  background-image: url(/assets/Image/testimonials_background.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#bgPhoto .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#bgPhoto .container .properties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#bgPhoto .container .properties .bla {
+  color: #fd784f;
+  height: 35px;
+  width: 5px;
+  background-color: #fd784f;
+}
+#bgPhoto .container .properties .word {
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+}
+#bgPhoto .container .wordDiv {
+  color: #fff;
+  width: 65%;
+  text-align: center;
+}
+#bgPhoto .container .woMenPhoto img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+#bgPhoto .container .woMenPhoto .person {
+  color: #fd784f;
+  margin: 0;
+}
+#bgPhoto .container .woMenPhoto p {
+  color: #fff;
+}
+
+#endSection {
+  background-image: url(/assets/Image/world.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+#endSection .container {
+  width: 100%;
+}
+#endSection .container .row .col-xl-2 {
+  margin-top: 20px;
+}
+#endSection .container .row .col-xl-2 img {
+  width: 198px;
+  height: 348px;
+}
+#endSection .container .row .col-xl-2 .city {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#endSection .container .row .col-xl-2 .city button {
+  position: absolute;
+  bottom: 25px;
+  color: #fff;
+  padding: 5px 20px;
+  background-color: #fd784f;
+  border: 1px solid #fd784f;
+}
+#endSection .container .row .col-xl-2 .city button:hover {
+  background-color: #fff;
+  color: #fd784f;
+  transition: 1s;
+}
+#endSection .container .travelPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#endSection .container .travelPhoto .colorr {
+  background-color: #fd784f;
+  width: 5px;
+  height: 35px;
+}
+#endSection .container .travelPhoto .prefer {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+}
+#endSection .container .city {
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+footer .container {
+  text-align: center;
+}
+footer .container p {
+  color: #fff;
+  margin: 0;
+}
+footer .container p span {
+  color: rgb(66, 66, 254);
+}
+
+@media (max-width: 500px) {
+  #photoHome .container p {
+    font-size: 50px;
+  }
+  header nav p {
+    display: none;
+  }
+}

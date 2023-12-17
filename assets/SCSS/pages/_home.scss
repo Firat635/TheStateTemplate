@@ -1,0 +1,335 @@
+header {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    border-bottom: 1px solid #fff;
+
+    nav {
+        margin: auto;
+        width: 90%;
+        padding: 20px;
+        margin-top: 20px;
+
+        .navbar-brand {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            span {
+                color: #fff;
+            }
+
+        }
+
+        .navMenu {
+
+
+            justify-content: center;
+
+            ul {
+                gap: 20px;
+                margin: auto;
+                text-align: center;
+
+                li {
+                    a {
+                        strong {
+                            color: #fff;
+                            font-size: 15px;
+
+                            &:hover {
+                                color: #fd784f;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        p {
+            background-color: #fd784f;
+            color: #fff;
+            padding: 10px 30px;
+        }
+
+    }
+}
+
+#photoHome {
+    background-image: url(/assets/Image/home_slider_bcg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        width: 100%;
+
+        p {
+            text-align: center;
+            color: #fff;
+            font-size: 70px;
+
+        }
+    }
+}
+
+#homeproducts {
+    .container {
+        .properties {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+
+            .bla {
+                color: #fd784f;
+                height: 35px;
+                width: 5px;
+                background-color: #fd784f;
+            }
+
+            .word {
+                font-weight: 500;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+#products {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    .box {
+        p {
+            margin: 0;
+        }
+
+        padding: 20px;
+        border: 1px solid #fd784f;
+
+        button {
+            border: 1px solid #fd784f;
+            background-color: #fd784f;
+            color: #fff;
+            border-radius: 30px;
+            padding: 5px 15px;
+
+            &:hover {
+                background-color: #fff;
+                color: #fd784f;
+                transition: 1s;
+            }
+
+        }
+
+        img {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+#loadbtn {
+    background-color: rgb(28, 170, 0);
+    border: 1px solid rgb(28, 170, 0);
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px 15px;
+
+    &:hover {
+        background-color: #fff;
+        transition: 1.5s;
+        color: rgb(28, 170, 0);
+    }
+
+}
+
+#bgPhoto {
+    background-image: url(/assets/Image/testimonials_background.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+
+        .properties {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+
+            .bla {
+                color: #fd784f;
+                height: 35px;
+                width: 5px;
+                background-color: #fd784f;
+            }
+
+            .word {
+                font-weight: 500;
+                font-size: 25px;
+                color: #fff;
+            }
+
+        }
+
+
+        .wordDiv {
+            color: #fff;
+            width: 65%;
+            text-align: center;
+        }
+
+        .woMenPhoto {
+            img {
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+
+            .person {
+                color: #fd784f;
+                margin: 0;
+            }
+
+            p {
+                color: #fff;
+            }
+        }
+    }
+
+}
+
+#endSection {
+    background-image: url(/assets/Image/world.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   
+
+
+    .container {
+        width: 100%;
+        .row{
+            .col-xl-2{
+                margin-top: 20px;
+                img{
+                    width: 198px;
+                    height: 348px;
+                }
+                .city{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    button{
+                        position: absolute;
+                        bottom: 25px;
+                        color:#fff;
+                       
+                       padding:5px 20px ;
+                        background-color: #fd784f;
+                        border: 1px solid #fd784f;
+                        &:hover{
+                            background-color: #fff;
+                            color: #fd784f;
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+        }
+        .travelPhoto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .colorr {
+                background-color: #fd784f;
+                width: 5px;
+                height: 35px;
+            }
+
+            .prefer {
+                font-weight: bold;
+                font-size: 25px;
+                margin: 0;
+            }
+        }
+        .city{
+            width: 100%;
+            
+        }
+
+    }
+}
+footer{
+    background-color: black;
+    width: 100%;
+    .container{
+
+        text-align: center;
+        p{
+            color: #fff;
+            margin: 0;
+            span{
+                color: rgb(66, 66, 254);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px) {
+    #photoHome .container p {
+        font-size: 50px;
+    }
+
+    header nav p {
+        display: none;
+    }
+}
